@@ -254,31 +254,7 @@ public class MainActivity extends AppCompatActivity {
         MySingleton.getInstance(this).addToRequestQueue(jsObjRequest);
     }
 
-    /**
-     * Display image from a path to ImageView
-     */
-//    private void previewCapturedImage() {
-//        try {
-//            imgPreview.setVisibility(View.VISIBLE);
-//
-//            // bitmap factory
-//            BitmapFactory.Options options = new BitmapFactory.Options();
-//
-//            // downsizing image as it throws OutOfMemory Exception for larger
-//            // images
-//            options.inSampleSize = 8;
-//
-//            final Bitmap bitmap = BitmapFactory.decodeFile(fileUri.getPath(),
-//                    options);
-//
-//
-//
-//            imgPreview.setImageBitmap(bitmap);
-//        } catch (NullPointerException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
+   
     /**
      * ------------ Helper Methods ----------------------
      * */
